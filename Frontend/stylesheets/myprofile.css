@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #222222;
+    font-family: Arial, sans-serif;
+}
+
+.myinfo {
+    margin: 80px 120px;
+    background: #393939;
+    padding: 8px 54px 24px 54px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.myinfo_edit {
+    width: 145px;
+    height: 44px;
+    display: flex;
+    margin-bottom: 8px;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    background: #D1C7BE;
+    border-radius: 8px;
+    border: none;
+}
+
+.myinfo_edit_text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #222222;
+}
+
+.myinfo_edit_icon {
+    width: 18px;
+    height: 18px;
+}
+
+.myinfo_userprofile {
+    width: 200px;
+    height: 200px;
+    border-radius: 125px;
+    margin-top: 100px;
+}
+
+.myinfo_content {
+    display: flex;
+    gap: 48px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.myinfo_content_line {
+    display: flex;
+    /* flex-direction: row; */
+    gap: 48px;
+}
+
+.myinfo_content_one {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-size: 14px;
+    color: #D1C7BE;
+    width: 225px;
+}
+
+.info_value {
+    width: 225px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #DDDDDD;
+}
+
+.orderhistory {
+    margin: 80px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orderhistory_topic {
+    margin: 0;
+    font-size: 72px;
+    font-weight: 800;
+    color: #292929;
+    margin-bottom: 80PX;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #393939;
+}
+
+
+th {
+    border: 1px solid #393939;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #D1C7BE;
+}
+
+
+td {
+    border-left: 1px solid #393939;
+    border-right: 1px solid #393939;
+    border-top: none;
+    border-bottom: none;
+    padding: 16px;
+    text-align: center;
+    font-size: 16px;
+    color: #DDDDDD;
+
+}
+
+.status_shipped {
+    color: #009688;
+}
+
+.status_delivered {
+    color: #4CAF50;
+}
+
+.status_pending {
+    color: #FFC107;
+}
+
+.status_canceled {
+    color: #F44336;
+}

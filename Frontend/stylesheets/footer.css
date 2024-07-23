@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #222222;
+    font-family: Arial, sans-serif;
+}
+
+.footer_top {
+    height: 118px;
+    width: auto;
+    background: #393939;
+    padding: 0 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_logo {
+    width: 102px;
+    height: 74px;
+}
+
+.footer_navigation {
+    display: flex;
+    gap: 56px;
+}
+
+.footer_nav_link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #D1C7BE;
+}
+
+.footer_socialmedia {
+    display: flex;
+    gap: 8px;
+}
+
+.socialmedia_icon {
+    width: 32px;
+    height: 32px;
+}
+
+.footer_bottom {
+    width: auto;
+    background: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_subscribe {
+    margin: 56px 0 40px 0;
+}
+
+.subscribe_text {
+    font-size: 18px;
+    color: #DDDDDD;
+    margin-right: 32px;
+}
+
+.footer_placeholder {
+    width: 382px;
+    background: #393939;
+    border-radius: 8px;
+    padding: 16px;
+    border: none;
+
+}
+
+.footer_placeholder::placeholder {
+    color: #DDDDDD;
+    font-size: 16px;
+}
+
+.footer_placeholder:focus,
+.footer_placeholder:not(:focus) {
+    color: #DDDDDD;
+    font-weight: 500;
+    outline: none;
+}
+
+.subscribe_button {
+    width: 145px;
+    height: 45px;
+    color: #222222;
+    background: #D1C7BE;
+    font-size: 18px;
+    font-weight: 500px;
+    border-radius: 8px;
+    margin-left: 16px;
+}
+
+.footer_copyright_text {
+    font-size: 16px;
+    color: #DDDDDD;
+    margin: 16px 0;
+    padding: 0;
+}

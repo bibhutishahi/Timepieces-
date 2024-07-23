@@ -1,0 +1,103 @@
+.signup_page {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #222222, #000000);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 102px;
+    height: 74px;
+    margin-top: 8px;
+}
+
+.signup_form {
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup_heading {
+    font-size: 64px;
+    font-weight: 500;
+    color: #DDDDDD;
+    margin-bottom: 80px;
+    line-height: 122%;
+}
+
+.signin_input_field {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 32px;
+    row-gap: 24px;
+}
+
+.signin_input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #DDDDDD;
+    background: none;
+    font-size: 20px;
+    font-style: italic;
+    width: 588px;
+    height: 64px;
+    margin-left: 24px;
+}
+
+.signin_input::placeholder {
+    color: #DDDDDD;
+}
+
+.signin_input:focus,
+.signin_input:not(:focus) {
+    color: #D1C7BE;
+    font-weight: 500;
+    outline: none;
+}
+
+.signin {
+    padding: 24px 259px;
+    font-size: 16px;
+    color: #222222;
+    background-color: #D1C7BE;
+    margin-top: 56px;
+}
+
+.signup_password_field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.fp_text {
+    color: #DDDDDD;
+    font-size: 20px;
+    margin-top: 32px;
+}
+
+.signup_redirect {
+    margin: 100px 0px;
+}
+
+.redirect_text {
+    font-size: 20px;
+    color: #DDDDDD;
+    margin-right: 8px;
+}
+
+.redirect_link {
+    font-size: 20px;
+    color: #DDDDDD;
+    font-weight: 600;
+    text-decoration: none;
+
+}
